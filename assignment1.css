@@ -1,0 +1,52 @@
+h1{
+    border: 3px solid #008cff;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    -webkit-text-stroke: 3px black;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    background-color: rgb(255 108 108);
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-color: black;
+    
+}
+
+p{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    border: 2px solid rgb(141, 81, 91);
+    background-color: #ffc4c4;
+    padding:5%;
+    display: inline-block;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    display: inline;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
